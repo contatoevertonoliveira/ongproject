@@ -12,17 +12,17 @@ function Dashboard(){
   const facalendar = <FontAwesomeIcon icon={faCalendar} />
   const faplus = <FontAwesomeIcon icon={faPlus} />
   const fachalkboard = <FontAwesomeIcon icon={faChalkboard} />
-
+  
   return(
     <React.Fragment>
       <div className="sidebar">
         <div className="header">ongR.B.</div>
 
-        <Button icon={faqrcode} text="Dashboard" />
-        <Button icon={faplus} text="Cadastro"/>
+        <Button text="Dashboard" />
+        {/* <ToggleGroup icon={faplus} text="Cadastro"/>
         <Button icon={fastream} text="Cursos"/>
         <Button icon={fachalkboard} text="Professores"/>
-        <Button icon={facalendar} text="Lembretes"/>
+        <Button icon={facalendar} text="Lembretes"/> */}
 
       </div>
     </React.Fragment>    
